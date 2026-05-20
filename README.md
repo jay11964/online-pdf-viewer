@@ -27,11 +27,13 @@ npm run dev -- --host 127.0.0.1
 ## MVP features
 
 - Open PDF from your computer (file picker)
-- Render pages
-- Next / Prev page
+- Render all pages (scroll)
+- **Vertical** or **horizontal** layout toggle (zoom works in both)
+- Next / Prev page (scrolls the focused page into view)
 - Zoom in / out
-- Page number display
+- Page number display (click a page to focus it for “Clear page”)
 - Simple text search (jumps to the first matching page)
+- **Annotate**: pen + eraser on a canvas overlay; pen size; clear page / clear all (stored in React state / memory only)
 
 ## Privacy
 
